@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="css/test1.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="js/test1.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-static-top");
+      var $tex = $(".navbar-inverse .navbar-nav>li>a")
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      $tex.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  </script>
+
+<!-- Include the above in you tag -->
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top">
+      
+        <div class="navbar-header">
+          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="navbar-logo" href="https://www.google.com">
+            <img src="img/image.png" class="img-responsive">
+          </a>
+        </div>
+        <div class="new"></div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><b>HOME</b></a></li>
+            <li><a href="http://www.bootply.com" target="ext"><b>ABOUT</b></a></li>
+            <li><a href="#contact"><b>CONTACT</b></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>DROPDOWN</strong><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.google.com">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </div><!-- /container -->
+</div><!-- /navbar wrapper -->
+
+
+<!-- Carousel
+================================================== -->
+<div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            HI!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            Bye!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            You!
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#transition-timer-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#transition-timer-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+  </a>
+  </a>
+
+  <hr class="transition-timer-carousel-progress-bar animate" />
+
+</div>
+<!-- /.carousel -->
+<div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            HI!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            Bye!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            You!
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+  </a>
+
+  <hr class="transition-timer-carousel-progress-bar animate" />
+
+</div>
+<!-- /.carousel -->
+<div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            HI!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            Bye!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            You!
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>
+
+  <hr class="transition-timer-carousel-progress-bar animate" />
+
+</div>
+<!-- /.carousel -->
+<div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            HI!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            Bye!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            You!
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>
+
+  <hr class="transition-timer-carousel-progress-bar animate" />
+
+</div>
+<!-- /.carousel -->
+<div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+    <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            HI!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            Bye!
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+            You!
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>
+
+  <hr class="transition-timer-carousel-progress-bar animate" />
+
+</div>
+<!-- /.carousel -->
+
+<!-- FOOTER -->
+<footer>
+  <p class="pull-right"><a href="#">Back to top</a></p>
+  <p>This Bootstrap layouompliments of Bootply. · <a href="http://placehold.it/1500X500">Edit on Bootply.com</a></p>
+</footer>
+<script type="text/javascript">
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.background-color = "#333";
+  } else {
+    document.getElementById("navbar").style.background-color = "transparent";
+  }
+}
+</script>
+</body>
+</html>
