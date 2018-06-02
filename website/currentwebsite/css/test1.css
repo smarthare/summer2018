@@ -19,6 +19,11 @@
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
+
+.tesim img{
+  padding-left: 5px;
+  padding-right: 5px;
+}
 /*Carousel*/
 
 #transition-timer-carousel .item.item1 {
@@ -100,19 +105,19 @@
 #carouselExampleCaptions .caption-container, #transition-timer-carousel.caption-container{
   width:50rem;
   height: 100%;
-  margin-bottom: 100px;
 }
 #carouselExampleCaptions .caption-two-panel, #transition-timer-carousel .caption-two-panel{
   display: flex;
   align-items:center;
 }
-#carouselExampleCaptions .intro h1, #transition-timer-carousel .intro h1{
+#carouselExampleCaptions .intro h1, #transition-timer-carousel h1{
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
+  font-size: 100px;
 }
 #carouselExampleCaptions .intro-caption .btn i, #transition-timer-carousel .intro-caption .btn i{
   float: left;
   margin-right:15px;
-  margin-bottom: 100px;
 }
 #carouselExampleCaptions .intro .carousel-item, #transition-timer-carousel .intro .carousel-item{
   height: 100vh;
@@ -125,7 +130,7 @@
   height: 100vh;
 }
 #carouselExampleCaptions .intro  .carousel-caption, #transition-timer-carousel .intro  .carousel-caption{
-  top:25%;
+  top:50%;
 }
 
 .bg-overlay-light:before{
@@ -138,6 +143,18 @@
   top:0;
   z-index: -1;
 }
+
+
+/********************************/
+/*          Client Section      */
+/********************************/
+
+.clients-sec{
+  padding-bottom: 120px;
+  padding-top: 45px;
+}
+
+
 
 
 /********************************/
@@ -259,6 +276,8 @@ GO TO TOP
   position:fixed;
   left: 0;
   right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   background-color:transparent;
@@ -267,8 +286,12 @@ GO TO TOP
   border-color:transparent;
 }
 
+.navbar-static-top {
+  border-bottom: 1px solid white;
+}
 .navbar-static-top.scrolled {
   background-color: #fff !important;
+  border-bottom: 1px solid #333;
   transition: background-color 200ms linear;
 }
 
@@ -278,6 +301,7 @@ GO TO TOP
 }
 
 .navbar-inverse .navbar-nav>li>a.scrolled {
+
     color: black;
 }
 
@@ -290,7 +314,10 @@ GO TO TOP
   text-align: center;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
 }
 
 
@@ -396,8 +423,8 @@ GO TO TOP
   right: 0px;
   bottom: 0px;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 20%;
+  padding-top: 20%;
+  padding-bottom: 15%;
   padding-left: 15%;
   padding-right: 15%;
 }

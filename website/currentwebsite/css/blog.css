@@ -14,7 +14,6 @@
 }
 .blog-sec .heading {
 	width: 100%;
-	margin-top: 70px;
 	margin-bottom: 70px;
 }
 .blog-sec h2 {
@@ -32,20 +31,25 @@
 	margin-bottom: 18px;
 }
 .blog-sec h3 small {
+	text-align: center;
 	display: block;
 	color: #0297FF;
 	margin-bottom: 15px;
 }
 .blog-sec h3 a {
+	text-align: center;
 	color: #333;
 	font-size: 22px;
+	margin-bottom: 20px;
 }
 .blog-sec h3 a:hover {
 	color: #0297FF;
 	text-decoration: none;
 }
 .blog-sec .blog-image-block {
-	margin-bottom: 40px;
+	float: left;
+	height: 100px;
+	width: 100px;
 }
 .blog-sec .blog-image-block img {
 	border-radius: 5px;
@@ -69,6 +73,7 @@
 }
 
 .blog-sec p {
+	padding-top: 20px;
 	color: #333;
 }
 

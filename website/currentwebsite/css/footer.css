@@ -112,12 +112,26 @@ h5{
 	border-radius: 0;
 }
 .contact-section #map{
-	height: 350px;
+	height: 250px;
 }
+
+/* CONTACT SECTION 1
+-------------------------------------------------- */
+.btn{border-radius:0;}
+.btn-tranparent{border:1px solid #fff; color:#fff;}
+.btn-tranparent:hover{border:1px solid #fff; color:#000; background:#fff}
+
+.contact-sec1{padding:75px 0 100px;float:left; width:100%; background:#5A52A7 url(../img/sec-bg01.jpg) repeat-x; border-bottom:1px solid #7d75ca}
+.contact-sec1 h2{color:#fff; text-transform:uppercase; font-size:25px; font-weight:700;}
+.contact-sec1 p{font-size:16px; font-weight:300; color:#fff; margin:20px 0;}
+.contact-sec1 .phone-sec{ font-weight:700; font-size:22px; color:#fff;}
+.contact-sec1 .btn-tranparent{font-weight:600; font-size:16px; padding:5px 0px; text-transform:uppercase; width:200px; border-width:2px; margin-top:20px;}
+
 
 /* CONTACT SECTION
 -------------------------------------------------- */
 .contact-sec {
+	padding:75px 0 100px;
 	background: url(../img/contact-bg.jpg) no-repeat 0 bottom;
 	background-size: cover;
 }
