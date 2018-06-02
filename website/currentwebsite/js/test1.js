@@ -15,3 +15,4 @@ $(document).ready(function() {
     $(".transition-timer-carousel-progress-bar", "#transition-timer-carousel")
         .css("width", "100%");
 });
+
