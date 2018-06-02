@@ -1,0 +1,210 @@
+/* ========== Footer Section ========== */
+
+h5{
+	position: relative;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#foot .footer-section{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 97;
+}
+#foot .footer-section .list-box img {
+    width: 70px;
+}
+#foot .footer-section .list-box a.title{
+	font-size: 14px;
+	line-height: 0;
+}
+#foot .footer-section .copy-text{
+	font-size: 12px;
+	border-top: 1px solid #555;
+}
+#foot .social-box a.icoRss:hover {
+	background-color: #F56505;
+}
+#foot .social-box a.fa-box:hover {
+	background-color:#3B5998;
+}
+#foot .social-box a.tw-box:hover {
+	background-color:#33ccff;
+}
+#foot .social-box a.go-box:hover {
+	background-color:#BD3518;
+}
+#foot .social-box a.ld-box:hover {
+	background-color:#007bb7;
+}
+#foot ul.social-box {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+#foot ul.social-box li {
+	display: inline;
+	margin: 0 5px;
+}
+#foot .social-box li a {
+    background: #414344;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 30px;
+}
+
+#foot .social-box li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+
+#foot .social-box li a:hover i, #foot .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#foot .social-box i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.bg-primary{
+	background-color: #35CBDF!important;
+}
+
+/* ========== Map Section ========== */
+.contact-section{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.contact-section #map {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-section #map {
+    background: #fff;
+    width:100%;
+    height: 100%;
+}
+.contact-section .form-control{
+	border-radius: 0;
+}
+.contact-section #map{
+	height: 350px;
+}
+
+/* CONTACT SECTION
+-------------------------------------------------- */
+.contact-sec {
+	background: url(../img/contact-bg.jpg) no-repeat 0 bottom;
+	background-size: cover;
+}
+.contact-sec h2 {
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact-sec h2 small {
+	color: #fff;
+	display: block;
+	line-height: 27px;
+	margin-top: 10px;
+}
+.contact-sec label {
+	color: #fff;
+}
+.contact-sec input[type="text"], .contact-sec input[type="email"] {
+	border-radius: 0px;
+}
+.contact-sec textarea {
+	border-radius: 0;
+	height: 50px;
+}
+.contact-sec .action-block {
+	margin-top: 40px;
+}
+.contact-sec .action-block a.btn {
+	padding-left: 35px;
+	padding-right: 35px;
+	text-transform: uppercase;
+	font-weight: 600
+}
+.contact-sec .form-control {
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #fff;
+	padding-left: 0
+}
+
+/* ========== buttons ========== */
+
+.btn-capsul {
+	border-radius: 30px;
+	margin: 0 auto;
+}
+.btn-aqua {
+	background: #0297FF;
+	color: #fff;
+}
+.btn-aqua:hover {
+	background: #10629b;
+	color: #fff;
+}
+.btn-dark-blue {
+	background: #0C242E;
+	color: #fff;
+}
+.btn-dark-blue:hover {
+	background: #063d28;
+	color: #fff;
+}
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.btn-transparent-white:hover, .btn-transparent-white:focus {
+	background: #fff;
+	color: #0297FF
+}
+
+
+/* ========== Copy Footer Styles ========== */
+#foot .copy-footer{
+	float: left;
+	width:100%;
+	font-size: 14px;
+	background: #111;
+}
+#foot .copy-footer a{
+	color: #fff;
+}
+#foot .copy-footer a:hover{
+	text-decoration: underline;
+}
