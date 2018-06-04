@@ -84,12 +84,12 @@ img {
 /*******About Us**************************/
 
 
-#about.head-box h2{
-  color: #333;
-  text-align: center;
-  font-weight: 700;
-  font-size: 2.5rem;
-}
+
+#about.head-box h2 { color: #434e5b; font-size: 25px; font-weight: 700; text-transform: uppercase; margin-bottom:30px}
+#about.head-box h2:before{ background:black;content: ""; height: 2px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
+margin-left: -55px;}
+#about.head-box h2 small { float: left; margin-top: 26px;width: 100%;} 
+
 
 .about-sec p{
   padding-top: 10px;
