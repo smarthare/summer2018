@@ -162,12 +162,12 @@ img {
 i.box-circle-solid{
 	background-color:#0297FF;
 	border-radius: 50%;
-    color: #fff;
-    font-size: 22px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    width: 60px;
+  color: #fff;
+  font-size: 22px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px;
 }
 
 i.box-circle-outline{
@@ -176,9 +176,9 @@ i.box-circle-outline{
 	border-style:solid;
 	border-radius: 50%;
 	height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
 }
 i {
   color: #333;
