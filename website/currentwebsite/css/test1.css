@@ -67,11 +67,12 @@
 
 #transition-timer-carousel .carousel-control.left,
 #transition-timer-carousel .carousel-control.right {
-  opacity: 0.45;
-  filter: alpha(opacity=10);
+  opacity: 0;
+  filter: alpha(opacity=0);
   background-image: none;
   background-repeat: no-repeat;
   text-shadow: none;
+  z-index: 9;
 }
 
 /*IMAGE*/
@@ -106,9 +107,17 @@
   width:50rem;
   height: 100%;
 }
-#carouselExampleCaptions .caption-two-panel, #transition-timer-carousel .caption-two-panel{
+#carouselExampleCaptions .caption-two-panel, #transition-timer-carousel .caption-two-panel.c2{
   display: flex;
   align-items:center;
+}
+#transition-timer-carousel .caption-two-panel.c1{
+  display: flex;
+  align-items:left;
+}
+#transition-timer-carousel .caption-two-panel.c3{
+  display: flex;
+  align-items:right;
 }
 #carouselExampleCaptions .intro h1, #transition-timer-carousel h1{
   font-family: 'Lato', sans-serif;
@@ -116,6 +125,7 @@
   font-size: 100px;
 }
 #carouselExampleCaptions .intro-caption .btn i, #transition-timer-carousel .intro-caption .btn i{
+  z-index: 97;
   float: left;
   margin-right:15px;
 }
@@ -161,25 +171,28 @@
 /*          Custom Buttons      */
 /********************************/
 
-
+.btn{
+  z-index: 97;
+}
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-hero,
 .btn.btn-hero:focus {
+    z-index: 97;
     width: 200px;
     position: center center;
-    color: #f5f5f5;
-    background-color: transparent;
+    color: #333;
+    background-color: #fff;
     border-color: #fff;
     outline: none;
     margin: 20px auto;
 }
 
 .btn.btn-hero:hover{
+    z-index: 97;
     color: #333;
     width: 200px;
     position: center center;
     background-color: white;
-    border-color: #333;
     outline: none;
     margin: 20px auto;
 }
@@ -341,7 +354,7 @@ GO TO TOP
 }
 /* Since positioning the image, we need to help out the caption */
 #transition-timer-carousel .carousel-caption {
-  z-index: 21;
+  z-index: 97;
 }
 
 /* Declare heights because of positioning of img element */
@@ -417,7 +430,7 @@ GO TO TOP
 }
 }
 
-#transition-timer-carousel .carousel-caption {
+#transition-timer-carousel .carousel-caption.c2 {
   width: 100%;
   left: 0px;
   right: 0px;
@@ -427,6 +440,28 @@ GO TO TOP
   padding-bottom: 15%;
   padding-left: 15%;
   padding-right: 15%;
+}
+#transition-timer-carousel .carousel-caption.c1 {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: left;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+#transition-timer-carousel .carousel-caption.c3 {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: right;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  padding-right: 5%;
 }
 #transition-timer-carousel .carousel-caption .carousel-caption-header {
   margin-top: 10px;
@@ -444,7 +479,7 @@ GO TO TOP
   margin-bottom: 5px;
 }
 #transition-timer-carousel .carousel-control {
-  z-index: 11;
+  z-index: 9;
 }
 #transition-timer-carousel .transition-timer-carousel-progress-bar {
     height: 7px;
@@ -452,7 +487,7 @@ GO TO TOP
     width: 100%;
     margin: -5px 0px 0px 0px;
     border: none;
-    z-index: 11;
+    z-index: 9;
     position: relative;
 }
 #transition-timer-carousel .transition-timer-carousel-progress-bar.animate {

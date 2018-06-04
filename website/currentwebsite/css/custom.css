@@ -1,7 +1,7 @@
 .testimonial-sec.visi {visibility: visible;}
 .testimonial-sec{z-index: 98; background:url(../img/sec-bg03.jpg) repeat-x; float:left; width:100%; color:black; background-size:cover;}
 .testimonial-sec h2 { color: #434e5b; font-size: 25px; font-weight: 700; text-transform: uppercase; margin-bottom:30px}
-.testimonial-sec h2:before{ background:black;content: ""; height: 3px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
+.testimonial-sec h2:before{ background:black;content: ""; height: 2px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
 margin-left: -55px;}
 .testimonial-sec h2 small { float: left; margin-top: 26px;width: 100%;}	
 .testimonial-sec .testimonial-container{ margin-top:60px;}
@@ -13,7 +13,7 @@ margin-left: -55px;}
 .testimonial-sec .carousel .carousel-indicators .active{ background:black}
 .testimonial-sec .carousel p {font-size: 14px; font-weight: 400; color: #4d4d4d;}
 .testimonial-sec blockquote {border: medium none; text-align: center; margin-top:20px;}
-.testimonial-sec .profile-circle img {border-radius: 50%; height: 150px; margin: 0 auto; width: 150px; border:2px solid rgba(0,0,0,0.6);}
+.testimonial-sec .profile-circle img {border-radius: 50%; height: 150px; margin: 0 auto; width: 150px; }
 .testimonial-sec blockquote footer{color:#333; background:none; border:none; font-weight: 700}
 .testimonial-sec blockquote header{color:#333; background:none; border:none; font-weight: 700; font-size: 15px;} 
 /*.testimonial-sec{background:url(../img/sec-bg03.jpg) repeat-x; float:left; width:100%; color:#fff; background-size:cover;}
