@@ -85,19 +85,18 @@ img {
 
 
 
-#about.head-box h2 { color: #434e5b; font-size: 25px; font-weight: 700; text-transform: uppercase; margin-bottom:30px}
-#about.head-box h2:before{ background:black;content: ""; height: 2px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
+#about .head-box h2 { color: #434e5b; font-size: 25px; font-weight: 700; text-transform: uppercase; margin-bottom:30px}
+#about .head-box h2:before{ background:black;content: ""; height: 2px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
 margin-left: -55px;}
-#about.head-box h2 small { float: left; margin-top: 26px;width: 100%;} 
+#about .head-box h2 small { float: left; margin-top: 26px;width: 100%; margin-bottom: 8px;} 
 
 
 .about-sec p{
-  padding-top: 10px;
   color:#444746;
-  margin-left: 104.2px;
-  margin-right: 104.2px;
+  margin-left: 110px;
+  margin-right: 110px;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   word-spacing: 0.15rem;
   line-height:  140%;
   
@@ -141,20 +140,10 @@ margin-left: -55px;}
 #serv1 a, #serv2 a, #serv3 a{
   color:#23442E;
 }
-
-#services h2{
-  color: #333;
-	font-weight: 700;
-	font-size: 2.5rem;
-}
-
-#services.head-box h6{
-  color: #333;
-  text-align: center;
-	font-weight: 700;
-	font-size: 2.5rem;
-}
-
+#services .head-box h2 { color: #434e5b; font-size: 25px; font-weight: 700; text-transform: uppercase; margin-bottom:30px}
+#services .head-box h2:before{ background:black;content: ""; height: 2px; left: 17px; margin-top: 40px; position: absolute; width: 110px; left: 50%;
+margin-left: -55px;}
+#services .head-box h2 small { float: left; margin-top: 26px;width: 100%; margin-bottom: 8px;} 
 
 /*--- three Block Panel ---*/
 
